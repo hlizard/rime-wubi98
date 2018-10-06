@@ -2,13 +2,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wubi_pinyin
-  name: "五笔·拼音"
+  schema_id: wubi98_pinyin
+  name: "五笔98·拼音"
   version: "0.9"
   author:
     - 發明人 王永民先生
   description: |
-    五筆字型86版＋漢語拼音混合輸入。
+    五筆字型98版＋漢語拼音混合輸入。
     碼表源自 ibus-table
   dependencies:
     - pinyin_simp
@@ -50,8 +50,8 @@ speller:
   #max_code_length: 4  # 四碼頂字上屏
 
 translator:
-  dictionary: wubi86
-  prism: wubi_pinyin
+  dictionary: wubi98
+  prism: wubi98_pinyin
   enable_charset_filter: true
   enable_sentence: true
   enable_encoder: true

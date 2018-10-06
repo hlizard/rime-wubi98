@@ -2,14 +2,14 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wubi_trad
-  name: 五筆·簡入繁出
+  schema_id: wubi98_trad
+  name: 五筆98·簡入繁出
   version: "0.7"
   author:
     - 發明人 王永民先生
     - 輸入方案製作 佛振 <chen.sst@gmail.com>
   description: |
-    五筆字型86版 簡入繁出
+    五筆字型98版 簡入繁出
     需要安裝 opencc 簡繁轉換詞典
   dependencies:
     - pinyin_simp
@@ -57,8 +57,8 @@ speller:
   #max_code_length: 4
 
 translator:
-  dictionary: wubi86
-  prism: wubi_trad
+  dictionary: wubi98
+  prism: wubi98_trad
   enable_charset_filter: true
   disable_user_dict_for_patterns:
     - "^z.*$"
