@@ -32,6 +32,6 @@
 
 然后重新启动fcitx，切换中州韵， ctrl+\`选择输入方案即可。
 
-模糊音设置请看文件 pinyin_simp.custom.yaml
+模糊音设置请看文件 pinyin_simp.custom.yaml(需自己手动下载放入~/.config/fcitx/rime/)
 
 授權條款：見 [LICENSE](LICENSE)
