@@ -1,10 +1,10 @@
 # 五筆字型
 
-配方： ℞ **wubi98**
+配方： ℞ **wubi98_pinyin**
 
-[Rime](http://rime.im) 五筆字型輸入方案
+[Rime](http://rime.im) 五筆字型98輸入方案
 
-五筆字型 98 及新世纪版 （源自 https://github.com/lswqzhang/RIME-wubi）
+五笔98拼音混輸 （源自 https://github.com/lswqzhang/RIME-wubi）
 
 ## 安裝
 
