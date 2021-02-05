@@ -12,11 +12,25 @@
 
   - [袖珍简化字拼音](https://github.com/rime/rime-pinyin-simp) ℞ **`pinyin-simp`**
 
-[東風破](https://github.com/rime/plum) 安裝口令： 
+[東風破](https://github.com/rime/plum) 安裝口令(这里以fcitx-rime为例)： 
 
-`bash rime-install pinyin-simp`
+`git clone --depth 1 https://github.com/rime/plum.git`
 
-`bash rime-install https://github.com/hlizard/rime-wubi98`
+`cd plum/`
+
+`rime_frontend=fcitx-rime bash rime-install pinyin-simp`
+
+`rime_frontend=fcitx-rime bash rime-install hlizard/rime-wubi98`
+
+`cd /usr/share/rime-data`
+
+`sudo vim default.yaml`
+
+增加：
+  - schema: wubi98_pinyin
+  - schema: wubi98_trad
+
+然后重新启动fcitx，切换中州韵， ctrl+\`选择输入方案即可。
 
 模糊音设置请看文件 pinyin_simp.custom.yaml
 
